@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+    margin:auto 0% 10vh 0%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    z-index: 3;
+    position: fixed;
+    width: 94%;
+}
+
+nav a
+{
+    text-decoration:none;
+    color:orange;
+    padding-left: 8%;
+    font-size:2.5vh;
+    font-weight: bolder;
+}
+#About
+{
+    background-color: orange;
+    padding: 33%;
+    margin-bottom: 0%;
+}
+#About > h1
+{
+    color:black;
+    font-size: 58px;
+}
+#About > p
+{
+color:black;
+ padding-left: 35%;
+ font-size: 38px;
+}
+#Work
+{
+ background-color: rgb(1, 78, 78);
+ margin:0;
+ padding-top: 8%;
+ 
+
+}
+#Work > h2
+{
+  text-align: center;
+  font-size:4vw;
+  color: wheat;
+}
+#Work > hr
+{
+    width: 85%;
+    padding: 0.2%;
+    background-color: wheat;
+    border: 1px solid wheat;
+    
+}
+ul 
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    flex-wrap: wrap;
+    list-style: none;
+}
+img
+{
+    width:300px;
+    height: 220px;
+}
+
+ul li
+{
+    padding: 2%;
+
+    
+}
+#Contact
+{
+    background-color: orange;
+    color: white;
+    padding:28%;
+}
+#Contact > h1
+{
+    font-size: 65px;
+}
+#Contact > p
+{
+    padding-left: 5.3%;
+    font-size:35px ;
+}
+.icon
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    padding: 3%;
+   
+}
+.icon > a:hover
+{
+    transform: translate(0%,12%);
+}
+footer
+{
+    background-color: olive;
+    padding:2%;
+    display: flex;
+    justify-content: space-around;
+}
+
